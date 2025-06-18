@@ -4,57 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AWmac - Ferramentas a Bateria</title>
+    <title>AWmac</title>
     <style>
         body {
-            margin: 0;
+            background-color: #001f3f;
+            color: white;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #001f3f, #0074D9);
-            color: #fff;
             text-align: center;
+            padding: 40px;
         }
-        header {
-            padding: 30px 20px;
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
         }
-        header img {
-            height: 80px;
-        }
-        .banner {
-            width: 90%;
-            max-width: 600px;
+        .produto {
             margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.4);
-        }
-        .contact {
-            margin: 40px auto;
-            background: #fff;
-            color: #000;
+            max-width: 90%;
+            background: #003366;
             padding: 20px;
             border-radius: 10px;
-            width: 90%;
-            max-width: 600px;
         }
-        .contact a {
-            display: block;
-            margin: 10px 0;
-            color: #0074D9;
-            font-weight: bold;
+        .produto img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .botao {
+            display: inline-block;
+            margin: 15px 10px;
+            padding: 12px 20px;
+            background-color: #00aaff;
+            color: white;
             text-decoration: none;
+            border-radius: 8px;
+        }
+        .banner {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="https://awmac-pro.netlify.app/logo_awmac.png" alt="Logo AWmac">
-        <h1>Ferramentas profissionais a bateria</h1>
-    </header>
-    <img class="banner" src="kit_awmac.jpg" alt="Kit de ferramentas AWmac">
-    <div class="contact">
-        <h2>Fale Conosco</h2>
-        <a href="https://wa.me/5519999963396" target="_blank">WhatsApp: (19) 99996-3396</a>
-        <a href="mailto:Andrewseuphrasio@outlook.com">Email: Andrewseuphrasio@outlook.com</a>
-        <a href="https://instagram.com/awmac_" target="_blank">Instagram: @awmac_</a>
+    <img src="logo.png" alt="AWmac Logo" class="logo">
+    <h1>Ferramentas profissionais a bateria</h1>
+
+    <img src="banner.png" alt="Banner Promocional" class="banner">
+
+    <div class="produto">
+        <h2>Kit de ferramentas AWmac</h2>
+        <img src="kit-ferramentas.png" alt="Kit de ferramentas">
+        <p><strong>R$ 1500,00</strong></p>
     </div>
+
+    <a class="botao" href="https://wa.me/5519999963396" target="_blank">WhatsApp</a>
+    <a class="botao" href="mailto:Andrewseuphrasio@outlook.com">Email</a>
+    <a class="botao" href="https://instagram.com/Awmac_" target="_blank">Instagram</a>
 </body>
 </html>

@@ -2,54 +2,97 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>AWmac - Ferramentas Profissionais</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: white;
-            color: #333;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .logo {
-            margin-top: 20px;
-        }
-        .banner {
-            max-width: 90%;
-            height: auto;
-            margin: 20px auto;
-            border-radius: 10px;
-        }
-        .catalogo {
-            max-width: 90%;
-            margin: 20px auto;
-        }
-        h1 {
-            margin-top: 10px;
-            font-size: 28px;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
-        }
-        .preco {
-            font-size: 22px;
-            color: green;
-            margin: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AWmac - Ferramentas Profissionais</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #001F3F, #0074D9);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 10px;
+    }
+    header img {
+      width: 180px;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      font-size: 30px;
+      margin: 5px 0;
+    }
+    header p {
+      font-size: 18px;
+      color: #ccc;
+    }
+    .container {
+      text-align: center;
+      padding: 30px 15px;
+    }
+    .container img {
+      width: 95%;
+      max-width: 800px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      margin: 20px 0;
+    }
+    .preco {
+      font-size: 24px;
+      color: #2ECC40;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .contato {
+      margin-top: 30px;
+    }
+    .contato a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contato a.email {
+      background-color: #3498db;
+    }
+    .contato a.instagram {
+      background-color: #833AB4;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
 </head>
 <body>
-    <img class="logo" src="logo_awmac.png" alt="Logo AWmac" width="200">
-    <h1>Bem-vindo à AWmac</h1>
-    <p>Ferramentas profissionais a bateria</p>
+  <header>
+    <img src="logo_awmac.png" alt="AWmac Logo">
+    <h1>AWmac</h1>
+    <p>Ferramentas profissionais a bateria para todo o Brasil</p>
+  </header>
 
-    <div class="catalogo">
-        <img class="banner" src="catalogo_awmac.png" alt="Catálogo de Produtos">
-        <p class="preco">Kit completo por apenas R$ 1.500,00</p>
-        <img class="banner" src="promo_awmac.png" alt="Promoção AWmac">
+  <div class="container">
+    <img src="kit_final.png" alt="Kit de ferramentas AWmac">
+    <div class="preco">Kit completo por apenas R$ 1.500,00</div>
+    <img src="promo_awmac.png" alt="Banner promocional AWmac">
+
+    <div class="contato">
+      <a href="https://wa.me/5519999963396" target="_blank">Fale no WhatsApp</a>
+      <a href="mailto:andrewseuphrasio@outlook.com" class="email">Enviar E-mail</a>
+      <a href="https://instagram.com/AWmac_" target="_blank" class="instagram">Instagram</a>
     </div>
+  </div>
+
+  <footer>
+    © 2025 AWmac. Todos os direitos reservados.
+  </footer>
 </body>
 </html>

@@ -1,27 +1,77 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>AWmac</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWmac - Ferramentas Profissionais</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #001f3f, #003366);
+            color: #fff;
+            text-align: center;
+        }
+        header {
+            background-color: #000;
+            padding: 20px 0;
+        }
+        header img {
+            height: 60px;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+        .gallery img {
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #000;
+        }
+        footer {
+            background-color: #000;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+        a.whatsapp-button {
+            display: inline-block;
+            margin-top: 15px;
+            background-color: #25D366;
+            color: #fff;
+            padding: 12px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Logo AWmac" class="logo">
-        <h1>Bem-vindo à AWmac</h1>
-        <p>Ferramentas profissionais a bateria para todo o Brasil</p>
+        <img src="logo_awmac.png" alt="Logo AWmac">
     </header>
-    <section class="produtos">
-        <h2>Catálogo de Produtos</h2>
-        <div class="produto">
-            <img src="kit-catalogo.png" alt="Kit de ferramentas AWmac">
-            <p>Kit completo AWmac - R$1500</p>
-        </div>
-    </section>
+    <h1>Bem-vindo à AWmac</h1>
+    <p>Ferramentas profissionais a bateria para todo o Brasil</p>
+
+    <div class="gallery">
+        <img src="bem_vindo_awmac.png" alt="Boas-vindas">
+        <img src="martelo_awmac.png" alt="Martelo">
+        <img src="impacto_awmac.png" alt="Chave de impacto">
+        <img src="broca_awmac.png" alt="Broca de impacto">
+        <img src="moedor_awmac.png" alt="Moedor">
+    </div>
+
+    <a class="whatsapp-button" href="https://wa.me/5519999963396" target="_blank">Fale conosco pelo WhatsApp</a>
+
     <footer>
-        <a href="https://wa.me/5519999963396" class="botao">Fale conosco no WhatsApp</a>
-        <p>Email: andrewseuphrasio@outlook.com | Instagram: @AWmac_</p>
+        <p>Email: andrewseuphrasio@outlook.com | Instagram: <a href="https://instagram.com/awmac_" style="color:#25D366;" target="_blank">@AWmac_</a></p>
     </footer>
 </body>
 </html>

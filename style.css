@@ -1,21 +1,38 @@
 
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
-body { background: #ffffff; color: #333; }
-header { background: #00214d; padding: 20px 0; text-align: center; }
-header h1 { color: #ffffff; font-size: 32px; }
-.home { background: #ffb800; padding: 50px 20px; text-align: center; }
-.home h2 { color: #00214d; font-size: 28px; margin-bottom: 10px; }
-.catalogo { background: #f4f4f4; padding: 50px 20px; text-align: center; }
-.catalogo h2 { color: #00214d; font-size: 24px; margin-bottom: 30px; }
-.produtos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; justify-content: center; }
-.produto { background: #fff; border: 2px solid #00214d; border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: 0.3s; }
-.produto:hover { transform: translateY(-5px); }
-.produto h3 { color: #00214d; font-size: 20px; margin-bottom: 10px; }
-.preco { color: #ffb800; font-weight: bold; font-size: 18px; }
-.contato { padding: 50px 20px; text-align: center; }
-.contato h2 { color: #00214d; font-size: 24px; margin-bottom: 20px; }
-.contato ul { list-style: none; margin-bottom: 20px; font-size: 16px; }
-.contato li { margin-bottom: 10px; }
-.botao { background: #00214d; color: #fff; padding: 12px 30px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: 0.3s; }
-.botao:hover { background: #ffb800; color: #00214d; }
-footer { background: #00214d; color: white; text-align: center; padding: 15px 0; font-size: 14px; }
+body {
+    font-family: Arial, sans-serif;
+    background: #001f3f;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    padding: 30px;
+}
+.logo {
+    max-width: 180px;
+}
+.produtos {
+    margin: 40px auto;
+}
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.botao {
+    background: #0074D9;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 14px;
+    background: #001830;
+}

@@ -1,58 +1,52 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>AWmac Ferramentas</title>
-    <style>
-        body {
-            background-color: #002244;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        img {
-            width: 80%;
-            max-width: 400px;
-            margin: 20px 0;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .instagram { background-color: #E1306C; color: white; }
-        .email { background-color: #007BFF; color: white; }
-        .whatsapp { background-color: #25D366; color: white; }
-    </style>
+  <meta charset="UTF-8">
+  <title>AWmac — Ferramentas a bateria</title>
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+  <header>
+    <img src="assets/images/logo-awmac.png" alt="AWmac Logo" class="logo">
     <h1>Bem-vindo à AWmac</h1>
     <p>Ferramentas profissionais a bateria para todo o Brasil</p>
-    <img src="images/bem_vindo.jpg" alt="Boas-vindas AWmac">
+  </header>
 
-    <h2>Catálogo de Produtos</h2>
-    <img src="images/catalogo.jpg" alt="Catálogo de Produtos">
+  <nav class="galeria">
+    <img src="assets/images/moedor.jpg" alt="Moedor">
+    <img src="assets/images/broca.jpg" alt="Broca de Impacto">
+    <img src="assets/images/chave.jpg" alt="Chave de Impacto">
+    <img src="assets/images/martelo.jpg" alt="Cabeça de Martelo">
+  </nav>
 
-    <h2>Kit Moedor</h2>
-    <img src="images/moedor.jpg" alt="Kit Moedor">
+  <main>
+    <section class="catalogo">
+      <h2>Catálogo de Produtos</h2>
+      <div class="cards">
+        <div class="card"><img src="assets/images/moedor.jpg"><p>Moedor 68 V</p></div>
+        <div class="card"><img src="assets/images/broca.jpg"><p>Broca de Impacto</p></div>
+        <div class="card"><img src="assets/images/chave.jpg"><p>Chave de Impacto</p></div>
+        <div class="card"><img src="assets/images/martelo.jpg"><p>Cabeça de Martelo</p></div>
+      </div>
+    </section>
+  </main>
 
-    <h2>Broca de Impacto</h2>
-    <img src="images/broca.jpg" alt="Broca de Impacto">
+  <footer>
+    <p>19 99996‑3396</p>
+  </footer>
 
-    <h2>Chave de Impacto</h2>
-    <img src="images/impacto.jpg" alt="Chave de Impacto">
+  <div class="botoes-flutuantes">
+    <a href="https://instagram.com/seuusuario" target="_blank">
+      <img src="assets/images/insta-icon.png" alt="Instagram">Instagram
+    </a>
+    <a href="mailto:contato@awmac.com">
+      <img src="assets/images/email-icon.png" alt="E-mail">E‑mail
+    </a>
+    <a href="https://wa.me/5519999963396" target="_blank">
+      <img src="assets/images/whatsapp-icon.png" alt="WhatsApp">WhatsApp
+    </a>
+  </div>
 
-    <h2>Martelo</h2>
-    <img src="images/martelo.jpg" alt="Martelo">
-
-    <div>
-        <a href="https://instagram.com" class="btn instagram">Instagram 📸</a>
-        <a href="mailto:contato@awmac.com" class="btn email">E-mail 📧</a>
-        <a href="https://wa.me/5519999963396" class="btn whatsapp">WhatsApp 💬</a>
-    </div>
+  <script src="assets/script.js"></script>
 </body>
 </html>

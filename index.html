@@ -1,76 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AWmac - Ferramentas Profissionais</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background-color: #001f3f;
-      color: white;
-      text-align: center;
-    }
-    header {
-      padding: 20px;
-    }
-    h1 {
-      font-size: 2em;
-    }
-    section {
-      padding: 20px;
-    }
-    img {
-      max-width: 90%;
-      height: auto;
-      margin: 10px auto;
-      display: block;
-      border-radius: 10px;
-    }
-    .floating-buttons {
-      position: fixed;
-      top: 50%;
-      right: 10px;
-      transform: translateY(-50%);
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-      z-index: 1000;
-    }
-    .floating-buttons a {
-      background-color: #007bff;
-      color: white;
-      padding: 12px 18px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 0 10px #007bff;
-      transition: 0.3s;
-    }
-    .floating-buttons a:hover {
-      background-color: #0056b3;
-      box-shadow: 0 0 15px #00d0ff;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <title>AWmac — Ferramentas a bateria</title>
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header>
+    <img src="assets/images/logo-awmac.png" alt="AWmac Logo" class="logo">
     <h1>Bem-vindo à AWmac</h1>
     <p>Ferramentas profissionais a bateria para todo o Brasil</p>
   </header>
 
-  <section>
-    <h2>Catálogo de Produtos</h2>
-    <img src="catalogo.png" alt="Catálogo de Produtos" />
-    <img src="caixa-ferramentas.png" alt="Kit Caixa de Ferramentas" />
-  </section>
+  <nav class="galeria">
+    <img src="assets/images/moedor.jpg" alt="Moedor">
+    <img src="assets/images/broca.jpg" alt="Broca de Impacto">
+    <img src="assets/images/chave.jpg" alt="Chave de Impacto">
+    <img src="assets/images/martelo.jpg" alt="Cabeça de Martelo">
+  </nav>
 
-  <div class="floating-buttons">
-    <a href="https://wa.me/5519999963396" target="_blank">WhatsApp 💬</a>
-    <a href="mailto:contato@awmac.com" target="_blank">E-mail 📧</a>
-    <a href="https://instagram.com/awmac" target="_blank">Instagram 📸</a>
+  <main>
+    <section class="catalogo">
+      <h2>Catálogo de Produtos</h2>
+      <div class="cards">
+        <div class="card"><img src="assets/images/moedor.jpg"><p>Moedor 68 V</p></div>
+        <div class="card"><img src="assets/images/broca.jpg"><p>Broca de Impacto</p></div>
+        <div class="card"><img src="assets/images/chave.jpg"><p>Chave de Impacto</p></div>
+        <div class="card"><img src="assets/images/martelo.jpg"><p>Cabeça de Martelo</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>19 99996‑3396</p>
+  </footer>
+
+  <div class="botoes-flutuantes">
+    <a href="https://instagram.com/awmac_" target="_blank">
+      <img src="assets/images/insta-icon.png" alt="Instagram">Instagram
+    </a>
+    <a href="mailto:contato@awmac.com">
+      <img src="assets/images/email-icon.png" alt="E-mail">E‑mail
+    </a>
+    <a href="https://wa.me/5519999963396" target="_blank">
+      <img src="assets/images/whatsapp-icon.png" alt="WhatsApp">WhatsApp
+    </a>
   </div>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>

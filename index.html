@@ -3,28 +3,87 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>AWmac | Ferramentas Profissionais</title>
+  <title>AWmac | Máquinas Profissionais</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { background-color: #001f3f; color: white; font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 20px; }
-    .logo { max-width: 200px; margin-bottom: 30px; }
-    .grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
-    .grid img { max-width: 300px; height: auto; border-radius: 8px; }
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #001f3f, #001433);
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px 20px;
+    }
+    .logo {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .galeria img {
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00d9ff88;
+    }
+    .botao-flutuante {
+      position: fixed;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      bottom: 20px;
+      z-index: 999;
+    }
+    .botao-flutuante a {
+      background: #00d9ff;
+      color: #000;
+      padding: 12px 14px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px #00d9ff88;
+      transition: background 0.3s;
+    }
+    .botao-flutuante a:hover {
+      background: #00b0cc;
+    }
   </style>
 </head>
 <body>
-  <img class="logo" src="img1.png" alt="Logo AWmac">
-  <h1>Bem-vindo à AWmac</h1>
-  <p>As melhores ferramentas profissionais a bateria</p>
-  <div class="grid">
-    <img src="img2.png" alt="Imagem AWmac">
-    <img src="img3.png" alt="Imagem AWmac">
-    <img src="img4.png" alt="Imagem AWmac">
-    <img src="img5.png" alt="Imagem AWmac">
-    <img src="img6.png" alt="Imagem AWmac">
-    <img src="img7.jpeg" alt="Imagem AWmac">
-    <img src="img8.jpeg" alt="Imagem AWmac">
-    <img src="img9.jpeg" alt="Imagem AWmac">
-    <img src="img10.jpeg" alt="Imagem AWmac">
+  <header>
+    <img class="logo" src="40709943-9ED8-4279-9A1A-1EB4D0388909.png" alt="Logo AWmac">
+    <h1>AWmac Ferramentas</h1>
+    <p>Alta performance direto da fábrica – Kit com 4 Máquinas</p>
+  </header>
+
+  <div class="galeria">
+    <img src="AF93887E-AE73-4633-9D1A-677D85ACA710.jpeg" alt="Kit 1">
+    <img src="FC4A4C7A-AD76-49B0-AA8A-2D444ADF80CE.png" alt="Kit 2">
+    <img src="12B8942F-BFE4-4D7A-8F4A-2E0F6362BD27.png" alt="Kit 3">
+    <img src="DA670E7C-1270-4036-A17E-8A9B334EA805.png" alt="Broca">
+    <img src="D704842F-36AF-44EF-8889-270D05EE1390.png" alt="Chave de impacto">
+    <img src="7F12F0BA-6A2B-4F3E-AF67-41D890DB8C85.jpeg" alt="Maleta">
+    <img src="ADF0AD92-4EAB-4C00-82EB-8211E422E01C.jpeg" alt="Ferramenta 1">
+    <img src="F8509541-0836-4CD6-A12D-4C1A2464C9F3.jpeg" alt="Ferramenta 2">
+    <img src="9D16FF13-0E10-4826-8A7C-BAC19F9C6756.jpeg" alt="Ferramenta 3">
+  </div>
+
+  <div class="botao-flutuante">
+    <a href="https://wa.me/5519999963396" target="_blank">WhatsApp</a>
+    <a href="mailto:contato@awmac.com.br">E-mail</a>
+    <a href="https://instagram.com/awmac_" target="_blank">Instagram</a>
+    <a href="https://produto.mercadolivre.com.br/MLB-5430089524" target="_blank">Mercado Livre</a>
   </div>
 </body>
 </html>
